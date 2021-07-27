@@ -2,4 +2,6 @@
 
 # no plain CSS fully with Tailwind
 
-[Site Link]()
+Facing some issue eith navbar I will Fix it later.
+
+[Site Link](https://mrx-arafat.github.io/E-School-Tailwind/)
