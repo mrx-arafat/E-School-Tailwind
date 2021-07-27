@@ -46,7 +46,7 @@
       </nav>
 
       <section class="top-banner-container lg:flex justify-around py-16">
-        <div class="lt lg:pl-32 md:pl-24">
+        <div class="lt lg:pl-32">
           <div class="text-box space-y-5">
             <p>
               <span class="text-lg text-yellow-500 font-medium"
@@ -85,7 +85,17 @@
       </section>
     </header>
     <main>
-      <section class="info-container p-28 grid grid-cols-4">
+      <section
+        class="
+          info-container
+          p-28
+          grid
+          sm:grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-4
+          space-y-5
+        "
+      >
         <div
           class="
             box
@@ -297,10 +307,20 @@
       </section>
       <section class="tes-container">
         <h1 class="text-center text-5xl font-bold">Testimonial</h1>
-        <div class="tes-text flex justify-around items-center mx-48 p-20 mb-10">
-          <img class="w-32 h-32" src="img/Man.png" alt="" />
+        <div
+          class="
+            tes-text
+            lg:flex
+            justify-around
+            items-center
+            lg:mx-48
+            p-20
+            mb-10
+          "
+        >
+          <img class="w-32 h-32 mb-10" src="img/Man.png" alt="" />
 
-          <p class="px-10 font-medium">
+          <p class="lg:px-10 font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero odio voluptates similique sed ab quidem autem facere
             recusandae fugit provident consequuntur harum sequi dolorum nam amet
